@@ -1,0 +1,30 @@
+.cardContainer {
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: #aeaeae 0px 0px 10px;
+  transition: linear;
+  transition-duration: 300ms;
+}
+
+.cardContainer:hover {
+  box-shadow: #a9a9a9 0px 15px 25px;
+}
+
+.cardImage {
+  width: 100%;
+  height: 350px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardTitle {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 20px;
+  text-align: center;
+}

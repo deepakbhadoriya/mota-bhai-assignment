@@ -1,0 +1,25 @@
+@mixin grid-utils {
+  display: grid;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+@mixin hide-transform {
+  transform: translate(-50%, -50%) scale(0) !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+@mixin transform-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// @media only screen and (max-width: 320px) {}
+// @media only screen and (max-width: 480px) {}
+// @media only screen and (max-width: 600px) {}
+// @media only screen and (max-width: 768px) {}
+// @media only screen and (max-width: 900px) {}

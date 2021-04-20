@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1590808100071-3654286139a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+.heroContent {
+  position: relative;
+  font-family: 'Monserrat', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0.625rem;
+}
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.heroSubtitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+.heroButton {
+  background-color: #ae2d59;
+  color: white;
+  border: 1px solid #cb376a;
+  margin-top: 5rem;
+  padding: 0.9375rem1.875rem;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 200;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.1rem;
+  transition: linear;
+  transition-duration: 200ms;
+}
+.heroButton:hover {
+  background-color: #cb376a;
+  border: 1px solid #db7598;
+  letter-spacing: 0.2rem;
+}
